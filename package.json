@@ -1,0 +1,19 @@
+{
+  "name": "computer-architecture-course",
+  "version": "0.0.1",
+  "description": "Computer Architecture Course Tasks",
+  "main": "index.js",
+  "authors": {
+    "name": "Nikolai Andreev",
+    "email": "me@bakasa.dev"
+  },
+  "repository": "https://github.com/BakasaRus/computer-architecture-course",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
