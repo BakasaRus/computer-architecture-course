@@ -29,7 +29,7 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: true,
+    lastUpdated: 'Последнее обновление',
     nav: [
       {
         text: 'Методические указания',
@@ -41,34 +41,33 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/': [
-        ['', 'Главная'],
+      '/tasks': [
         {
           title: 'Методические указания',
           collapsable: false,
           children: [
-            '',
+              '/tasks/',
             {
               title: 'Раздел 1. Базовая ЭВМ',
-              collapsable: true,
-              path: '/tasks/theory-1',
+              collapsable: false,
               children: [
-                'homework-1',
-                'lab-1',
-                'lab-2',
-                'lab-3',
-                'lab-4',
-                'homework-2',
+                  '/tasks/theory-1',
+                '/tasks/homework-1',
+                '/tasks/lab-1',
+                '/tasks/lab-2',
+                '/tasks/lab-3',
+                '/tasks/lab-4',
+                '/tasks/homework-2',
               ],
             },
             {
               title: 'Раздел 2. Организация ввода-вывода в базовой ЭВМ',
-              collapsable: true,
+              collapsable: false,
               children: [],
             },
             {
               title: 'Раздел 3. Микропрограммное устройство управления',
-              collapsable: true,
+              collapsable: false,
               children: [],
             },
           ]
