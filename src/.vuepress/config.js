@@ -25,7 +25,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'https://github.com/BakasaRus/computer-architecture-course',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
