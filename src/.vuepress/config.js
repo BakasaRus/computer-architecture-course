@@ -38,7 +38,7 @@ module.exports = {
               title: 'Раздел 1. Базовая ЭВМ',
               collapsable: false,
               children: [
-                  '/tasks/theory-1',
+                '/tasks/theory-1',
                 '/tasks/homework-1',
                 '/tasks/lab-1',
                 '/tasks/lab-2',
