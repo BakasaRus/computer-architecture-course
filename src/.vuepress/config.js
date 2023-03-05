@@ -12,10 +12,6 @@ module.exports = {
     },
   },
   themeConfig: {
-    repo: 'https://github.com/BakasaRus/computer-architecture-course',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
     lastUpdated: 'Последнее обновление',
     nav: [
       {
