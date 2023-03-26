@@ -46,7 +46,12 @@ module.exports = {
             {
               title: 'Раздел 2. Организация ввода-вывода в базовой ЭВМ',
               collapsable: false,
-              children: [],
+              children: [
+                '/tasks/theory-2',
+                '/tasks/lab-5',
+                '/tasks/homework-3',
+                '/tasks/lab-6',
+              ],
             },
             {
               title: 'Раздел 3. Микропрограммное устройство управления',
