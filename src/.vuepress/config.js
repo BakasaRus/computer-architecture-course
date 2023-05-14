@@ -56,7 +56,12 @@ module.exports = {
             {
               title: 'Раздел 3. Микропрограммное устройство управления',
               collapsable: false,
-              children: [],
+              children: [
+                '/tasks/theory-3',
+                '/tasks/homework-4',
+                '/tasks/lab-7',
+                '/tasks/lab-8',
+              ],
             },
           ]
         }
